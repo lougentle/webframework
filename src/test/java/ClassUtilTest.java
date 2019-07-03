@@ -9,7 +9,7 @@ public class ClassUtilTest {
     @Test
     public void getClassLoaderTest() {
         ClassLoader classLoader = ClassUtil.getClassLoader();
-        System.out.println(classLoader.getName());
+        System.out.println();
     }
 
     @Test
